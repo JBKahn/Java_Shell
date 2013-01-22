@@ -1,0 +1,19 @@
+//Class Name: DirectoryAlias
+//Superclass: Directory
+//Subclass: None
+
+//Responsibilities:
+    * Keep track of the path
+    * Keep track of the name
+    * Keep track of subdirectories
+    * Get the path of DirectoryAlias
+    * Set the path of DirectoryAlias
+    * Get the name of DirectoryAlias
+    * Set the name of DirectoryAlias
+    * Get the parent directory of DirectoryAlias
+    * Set the parent directory of DirectoryAlias
+    * Set the contents of the referenced directory
+    * Get the contents of the referenced directory
+//Collaborators:
+    * JShellItem
+    * Directory

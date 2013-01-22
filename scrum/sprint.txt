@@ -1,0 +1,231 @@
+================================================================================
+sprint_5 | March 10 ~ March 19
+================================================================================
+Tasks to be completed by the end of sprint_5:
+
+  - Redirection	Features[JShell.java]:
+	Implement > OUTFILE or >> OUTFILE for all commands excluding 'exit'.
+
+  - Recursive Features	[JShell.java]:
+	Implement rm, find, grep, as well as -R option for ls.
+
+  - Serialization	[JShell.java]:
+	Research and implement serialization into JShell.
+	
+  - man command Overhaul[JShell.java]:
+	Redo man command as we lost marks in A2 Part A due to the code being 
+	over 30 lines of code. Our new implementation takes manual text files
+	and displays them in the shell.
+
+  - Testing and Debugging as needed.
+
+================================================================================
+Task Distribution
+================================================================================
+- Michael Kozakov <c1kozako>
+	Implement & Test: Serialization
+
+- Mohamed Khodeir <c1khodei>
+	Implement & Test: Recursive Features
+
+- Joseph Ben-Zion Kahn <g1boggyp>
+	Implement & Test: Redirection Features
+
+- In-Jey Hwang <c0hwangi>
+	Implement & Test: Recursive Features
+
+================================================================================
+sprint_4 | March 2 ~ March 3
+================================================================================
+Tasks to be completed by the end of sprint_4:
+
+  - mv OLDPATH NEWPATH	[JUnitTest.java]:
+	Create series of test cases for mv command and debug accordingly.
+
+  - cp OLDPATH NEWPATH	[JUnitTest.java]:
+	Create series of test cases for cp command and debug accordingly.
+
+  - get URL		[JUnitTest.java]:
+	Create series of test cases for get command and debug accordingly.
+
+  - echo STRING>OUTFILE	& STRING>>OUTFILE [JUnitTest.java]:
+	Create series of test cases for echo command and debug accordingly.
+
+  - ln PATH1 PATH2	[JUnitTest.java]:
+	Create series of test cases for ln command and debug accordingly.
+
+  - man CMD		[JUnitTest.java]:
+	Create series of test cases for man command and debug accordingly.
+
+================================================================================
+Task Distribution
+================================================================================
+- Michael Kozakov <c1kozako>
+	Test: man command, echo command
+
+- Mohamed Khodeir <c1khodei>
+	Test: mv command, cp command
+
+- Joseph Ben-Zion Kahn <g1boggyp>
+	Test: get command, echo command
+
+- In-Jey Hwang <c0hwangi>
+	Test: ln and cp command
+
+================================================================================
+sprint_3 | March 1 ~ March 2
+================================================================================
+Tasks to be completed by the end of sprint_3:
+
+  - mv OLDPATH NEWPATH	[JShell.java]:
+	Move item OLDPATH to NEWAPATH. Both OLDPATH and NEWPATH may be relative
+	to the current directory or may be full paths. If NEWPATH is a 
+	directory, move the item into the directory.
+
+  - cp OLDPATH NEWPATH	[JShell.java]:
+	Copy item OLDPATH to NEWPATH. Both OLDPATH and NEWPATH may be relative
+	to the current directory or may be full paths. If NEWPATH is a 
+	directory, recursively copy the contents.
+
+  - get URL		[JShell.java]:
+	URL is a web address. Retrieve the file at that URL and print the 
+	results to the screen.
+
+  - echo STRING>OUTFILE	[JShell.java]:
+	If OUTFILE is not provided, print STRING. Otherwise, put STRING into 
+	file OUTFILE. STRING is a String of characters surrounded by quotation 
+	marks. This creates a new file if OUTFILE does not exist, and erases the
+	old contents if OUTFILE already exists. In either case, the only thing 
+	in OUTFILE should be STRING.
+
+  - echo STRING>>OUTFILE[JShell.java]:
+	Like the previous command, but appends instead of overwriting.
+
+  - ln PATH1 PATH2	[JShell.java]:
+	Make PATH1 a symbolic link to PATH2. Both PATH1 and PATH2 may be 
+	relative to the current directory or may be full paths. PATH1 is a 
+	synonym for it. If PATH2 is deleted, then PATH1 will still exist but is
+	invalid.
+
+  - man CMD		[JShell.java]:
+	Print documentation for CMD.
+
+================================================================================
+Task Distribution
+================================================================================
+- Michael Kozakov <c1kozako>
+	Implement: man command, echo command
+
+- Mohamed Khodeir <c1khodei>
+	Implement: mv command, cp command
+
+- Joseph Ben-Zion Kahn <g1boggyp>
+	Implement: get command, echo command
+
+- In-Jey Hwang <c0hwangi>
+	Implement: ln and cp command
+
+================================================================================
+sprint_2 | February 29 ~ March 1
+================================================================================
+Note: We have not completed our tasks from the previous sprint. Thus, incomplete
+      tasks have been carried over to the sprint_2.
+
+Tasks to be completed by the end of sprint_2:
+
+  - mkdir DIR ...	[JUnitTest.java]:
+	Create series of test cases for mkdir command and debug accordingly.
+
+  - cd DIR/PATH	  	[JUnitTest.java]:
+	Create series of test cases for cd command and debug accordingly.
+
+  - ls PATH ...		[JUnitTest.java]:
+	Create series of test cases for ls command and debug accordingly.
+
+  - pwd			[JUnitTest.java]:
+	Create series of test cases for pwd command and debug accordingly.
+
+  - cat FILE  		[JUnitTest.java]:
+	Create series of test cases for cat command and debug accordingly.
+
+================================================================================
+sprint_1 | February 25 ~ February 27
+================================================================================
+Note: We have successfully finished our first sprint. This sprint will allow us 
+      to find bugs and fix them.
+
+Tasks to be completed by the end of sprint_1:
+
+  - mkdir DIR ...	[JUnitTest.java]:
+	Create series of test cases for mkdir command and debug accordingly.
+
+  - cd DIR/PATH	  	[JUnitTest.java]:
+	Create series of test cases for cd command and debug accordingly.
+
+  - ls PATH ...		[JUnitTest.java]:
+	Create series of test cases for ls command and debug accordingly.
+
+  - pwd			[JUnitTest.java]:
+	Create series of test cases for pwd command and debug accordingly.
+
+  - cat FILE  		[JUnitTest.java]:
+	Create series of test cases for cat command and debug accordingly.
+
+================================================================================
+Task Distribution
+================================================================================
+- Michael Kozakov <c1kozako>
+	Testing: ls command
+
+- Mohamed Khodeir <c1khodei>
+	Testing: mkdir command
+
+- Joseph Ben-Zion Kahn <g1boggyp>
+	Testing: cat command
+
+- In-Jey Hwang <c0hwangi>
+	Testing: pwd and cd command
+
+================================================================================
+sprint_0 | February 22 ~ February 24
+================================================================================
+Tasks to be completed by the end of sprint_0:
+  
+  - mkdir DIR ...	[JShell.java]:
+	Create directory called DIR, which may be created within the current 
+	directory or at a different address. (should be able to take in both 
+	relative and absolute paths)
+	
+  - cd DIR/PATH	  	[JShell.java]:
+	Change directory to DIR, which may be relative to the current directory or 
+	an absolute path. It should also be able recognize parent (../) and current 
+	(./) directories. The directory seperator must be "/".
+	
+  - ls PATH ...		[JShellItem.java [@Override]=> JShell.java]:
+	Print the contents of the current directory if no paths are given, with a 
+	new line following each of them.
+	# If PATH specifies a file, print PATH.
+	# If PATH specifies a directory, print PATH, a colon, then the contents of 
+	  that directory, then extra newline.
+	# If PATH does not exist, print a suitable message.
+	
+  - pwd			[JShell.java]:
+	Return the absolute path of the current working directory.
+	
+  - cat FILE  		[JShellItem.java [@Override]=> JShell.java]:
+	Print the contents of FILE in the shell.
+	
+================================================================================
+Task Distribution
+================================================================================
+- Michael Kozakov <c1kozako>
+	Implement: ls command
+
+- Mohamed Khodeir <c1khodei>
+	Implement: mkdir command
+
+- Joseph Ben-Zion Kahn <g1boggyp>
+	Implement: cat command
+
+- In-Jey Hwang <c0hwangi>
+	Implement: cd command, pwd command

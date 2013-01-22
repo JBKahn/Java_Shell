@@ -1,0 +1,21 @@
+//Class Name: Directory
+//Superclass: JShellItem
+//Subclass: None
+
+//Responsibilities:
+    * Keep track of the path
+    * Keep track of the name
+    * Keep track of the parent directory
+    * Keep track of the content
+    * Get the contents of Directory
+    * Set the contents of Directory
+    * Find and get the subdirectories from the contents
+    * Find and get the Files from the contents
+    * Find and get the JShellItem from the contents
+    * Find and remove the JShellItem from the contents
+    * Add a JShellItem to the contents
+    * Print the contents within the Directory
+//Collaborators:
+    * JShellItem
+    * File
+    * FileAlias

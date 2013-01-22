@@ -1,0 +1,100 @@
+================================================================================
+Product Backlog : Assignment 2 Part B
+================================================================================
+Required command implementations are sorted by priority.
+
+0) Redirection
+	* ls	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* pwd	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* cat	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* echo	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* get	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* rm	[JShell.java]	
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* man	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* find	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* grep	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+
+1) Recursive Listing
+	* ls [-R]	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* rm [-f]	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* find		[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+	* grep [-R]	[JShell.java]
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+
+2) Serialization
+	  - Implementation:	Complete (sprint_5)
+	  - Testing:		Complete (sprint_5)
+
+================================================================================
+Product Backlog : Assignment 2 Part A
+================================================================================
+Required command implementations are sorted by priority.
+
+0) mkdir[JShell.java]
+	  - Implementation:	Complete (sprint_0)
+	  - Testing:		Complete (sprint_1 & sprint_2)
+
+1) cd	[JShell.java]
+	  - Implementation:	Complete (sprint_0)
+	  - Testing:		Complete (sprint_1 & sprint_2)
+
+2) ls	[JShellItem.java [@Override] => Directory.java & File.java]
+	  - Implementation:	Complete (sprint_0)
+	  - Testing:		Complete (sprint_1 & sprint_2)
+
+3) pwd	[JShell.java]
+	  - Implementation:	Complete (sprint_0)
+	  - Testing:		Complete (sprint_1 & sprint_2)
+
+4) cat	[JShellItem.java [@Override] => Directory.java & File.java]
+	  - Implementation:	Complete (sprint_0)
+	  - Testing:		Complete (sprint_1 & sprint_2)
+
+5) mv	[JShell.java]
+	  - Implementation:	Complete (sprint_3)
+	  - Testing:		Complete (sprint_4)
+
+6) cp	[JShell.java]
+	  - Implementation:	Complete (sprint_3)
+	  - Testing:		Complete (sprint_4)
+
+7) echo	[JShell.java]
+	  - Implementation:	Complete (sprint_3)
+	  - Testing:		Complete (sprint_4)
+
+8) get	[JShell.java]
+	  - Implementation:	Complete (sprint_3)
+	  - Testing:		Complete (sprint_4)
+
+9) ln	[JShell.java]
+	  - Implementation:	Complete (sprint_3)
+	  - Testing:		Complete (sprint_4)
+
+10) man	[JShell.java]
+	  - Implementation:	Complete (sprint_3)
+	  - Testing:		Complete (sprint_4)

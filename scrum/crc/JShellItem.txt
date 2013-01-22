@@ -1,0 +1,17 @@
+//Class Name: (Abstract) JShellItem
+//Superclass: Object
+//Subclass: Directory, File, FileAlias
+
+//Responsibilities:
+    * Keep track of the path
+    * Keep track of the name
+    * Keep track of the parent directory
+    * Get the path of JShellItem
+    * Set the path of JShellItem
+    * Get the name of JShellItem
+    * Set the name of JShellItem
+    * Get the parent directory of JShellItem
+    * Set the parent directory of JShellItem
+    * Restrict JShellItem from being used by cat command.
+//Collaborators:
+    * None

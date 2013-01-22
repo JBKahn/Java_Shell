@@ -1,0 +1,19 @@
+//Class Name: FileAlias
+//Superclass: File
+//Subclass: None
+
+//Responsibilities:
+    * Keep track of the path
+    * Keep track of the name
+    * Keep track of the linked content
+    * Get the path of FileAlias
+    * Set the path of FileAlias
+    * Get the name of FileAlias
+    * Set the name of FileAlias
+    * Get the parent directory of FileAlias
+    * Set the parent directory of FileAlias
+    * Set the linked content of FileAlias
+    * Get the linked content of FileAlias
+//Collaborators:
+    * JShellItem
+    * File
